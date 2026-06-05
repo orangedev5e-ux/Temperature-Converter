@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="h"><b>Temperature Converter</b></h1> <br>
+    <p class="p"><b>Enter the temperature, select units & submit</b></p>
+
+
+
+    <div class="page">
+
+    <input class="input" type="number" placeholder="0.00" id="tempInput">
+
+        <div class="from" id="fromUnit"><h3 id="title">From unit</h3>
+            <i class="fa-solid fa-angle-down" id="down"></i>
+            <i class="fa-solid fa-angle-up" id="up"></i>
+        </div>
+
+
+
+        <div class="to" id="toUnit"><h3 id="title1">To unit</h3>
+            <i class="fa-solid fa-angle-down" id="down1"></i>
+            <i class="fa-solid fa-angle-up" id="up1"></i>
+        </div>
+
+
+
+    <button class="btn" id="convertBtn">Convert</button>
+</div>
+
+
+             <div class="drop">
+
+            <div class="from-box">
+            <div class="opt" id="ft">Farenheit</div>
+            <div class="opt" id="sc">Celcius</div>
+            <div class="opt" id="th">Kelvin</div>
+            </div>
+
+
+
+             <div class="to-box">
+            <div class="opt" id="ft1">Farenheit</div>
+            <div class="opt" id="sc1">Celcius</div>
+            <div class="opt" id="th1">Kelvin</div>
+           </div>
+
+        </div>
+
+        <div id="resultOutput" class="display"></div>
+
+     <script src="script.js"></script>
+</body>
+</html>
